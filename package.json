@@ -13,17 +13,24 @@
     "url": "https://github.com/focela/via-automation/issues"
   },
   "scripts": {
-  },
-  "peerDependencies": {
+    "login": "node bots/login.js",
+    "warmup": "node bots/warmup.js",
+    "check": "node bots/check-status.js",
+    "filter-alive": "node tools/filter-alive-via.js",
+    "run": "node bots/run-all.js",
+    "login-token": "node bots/login-token.js",
+    "batch-login": "node tools/batch-login-token.js",
+    "generate-vialist": "node tools/generate-via-list.js",
+    "daily": "node tools/daily-refresh.js",
+    "new-via": "npm run batch-login && npm run generate-vialist && npm run warmup"
   },
   "dependencies": {
-  },
-  "devDependencies": {
+    "playwright": "^1.43.1"
   },
   "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=6.0.0"
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   },
-  "keywords": [
-  ],
+  "keywords": [],
+  "packageManager": "yarn@4.7.0"
 }
