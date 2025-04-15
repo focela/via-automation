@@ -1,0 +1,29 @@
+{
+  "name": "@focela/via-automation",
+  "version": "1.0.0",
+  "description": "via-automation",
+  "license": "MIT",
+  "type": "module",
+  "author": "Focela Labs <opensource@focela.com> (https://www.focela.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/focela/via-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/focela/via-automation/issues"
+  },
+  "scripts": {
+  },
+  "peerDependencies": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+  ],
+}
